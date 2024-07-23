@@ -15,7 +15,7 @@ object Database {
             null
         }
     }
-
+//teste
     fun getGames(): List<Jogo> {
 
         val gameList = mutableListOf<Jogo>()
