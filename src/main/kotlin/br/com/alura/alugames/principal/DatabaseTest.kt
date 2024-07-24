@@ -1,9 +1,8 @@
 package br.com.alura.alugames.principal
 
 import br.com.alura.alugames.data.Database
-import br.com.alura.alugames.data.JogosDAO
+import br.com.alura.alugames.data.jogo.JogosDAO
 import br.com.alura.alugames.modelo.Jogo
-import javax.xml.crypto.Data
 
 fun main() {
     val manager = Database.getEntityManager()

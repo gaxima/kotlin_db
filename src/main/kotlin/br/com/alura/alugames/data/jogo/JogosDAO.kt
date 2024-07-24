@@ -1,5 +1,6 @@
-package br.com.alura.alugames.data
+package br.com.alura.alugames.data.jogo
 
+import br.com.alura.alugames.data.DAO
 import br.com.alura.alugames.modelo.Jogo
 import javax.persistence.EntityManager
 
