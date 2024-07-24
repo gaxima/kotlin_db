@@ -50,7 +50,6 @@ from
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="85d8a954-6b2e-4206-a2a8-d9bf0835269e" object-ref="consoles/test" />
       <object connection-id="85d8a954-6b2e-4206-a2a8-d9bf0835269e" object-ref="schemas/RM87285/tables/JOGOS" />
     </open-files>
   </component>
