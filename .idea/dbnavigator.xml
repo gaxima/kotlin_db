@@ -49,9 +49,7 @@ from
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="85d8a954-6b2e-4206-a2a8-d9bf0835269e" object-ref="schemas/RM87285/tables/JOGOS" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="cd43d27a-ddda-4e1b-80a0-f86778c4e425" />
@@ -64,6 +62,7 @@ from
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="85d8a954-6b2e-4206-a2a8-d9bf0835269e" dataset="RM87285.JOGOS" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="85d8a954-6b2e-4206-a2a8-d9bf0835269e" dataset="RM87285.JOB_GRADES" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
