@@ -8,16 +8,15 @@ import br.com.alura.alugames.modelo.Gamer
 fun main() {
 
     val gamer = Gamer(
-        "Rafa",
-        "rafa@email.com",
-        "15/07/2002",
-        "rafagamer"
+        "helena",
+        "hele@email.com",
+        "01/09/1996",
+        "helegamer",
     )
     val manager = Database.getEntityManager()
     val gamerDao = GamerDAO(manager)
     val planosDao = PlanoDAO(manager)
-
-    gamer.plano = planosDao.recuperarPeloId(id = 3)
+    gamer.plano = planosDao.recuperarPeloId(5)
 
 
     gamerDao.add(gamer)

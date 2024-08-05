@@ -1,6 +1,5 @@
 package br.com.alura.alugames.modelo
 
-import java.time.LocalDate
 import java.util.Scanner
 import kotlin.random.Random
 
@@ -57,7 +56,8 @@ data class Gamer(var nome:String, var email:String): Recomendavel {
                 "Usuario: $usuario\n" +
                 "IdInterno: $idInterno\n" +
                 "Reputação: $media\n" +
-                "Id: $id"
+                "Id: $id\n" +
+                "Plano: $plano"
     }
 
     fun criarIdInterno() {

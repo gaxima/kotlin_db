@@ -2,6 +2,7 @@ package br.com.alura.alugames.data.gamer
 
 import br.com.alura.alugames.data.plano.PlanoAvulsoEntity
 import br.com.alura.alugames.data.plano.PlanoEntity
+import javax.persistence.CascadeType
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
@@ -10,7 +11,7 @@ import javax.persistence.ManyToOne
 import javax.persistence.Table
 
 @Entity
-@Table(name = "Gamer")
+@Table(name = "gamer")
 data class GamerEntity(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Int = 0,
@@ -18,6 +19,6 @@ data class GamerEntity(
     val email: String = "email@email.com",
     val dataNascimento: String? = null,
     val usuario: String? = null,
-    @ManyToOne
+    @ManyToOne()
     val plano: PlanoEntity = PlanoAvulsoEntity()
 )

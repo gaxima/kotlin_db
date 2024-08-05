@@ -9,7 +9,7 @@ import javax.persistence.Persistence
 object Database {
 
     fun getEntityManager(): EntityManager {
-        val factory: EntityManagerFactory = Persistence.createEntityManagerFactory("RM87285")
+        val factory: EntityManagerFactory = Persistence.createEntityManagerFactory("alugames")
         return factory.createEntityManager()
     }
 

@@ -20,9 +20,13 @@ fun main() {
         9.99,
         "Um jogo de plataforma e ação com elementos de metroidvania, onde você controla a heroína Dandara em sua luta para libertar um mundo repleto de opressão e tirania."
     )
-    val jogoRecuperado = jogoDao.recuperarPeloId(3)
+
+    jogoDao.add(game)
+    jogoDao.add(game2)
+
+    val jogoRecuperado = jogoDao.recuperarPeloId(2)
     println(jogoRecuperado)
-    jogoDao.remove(4)
+//    jogoDao.remove(2)
 
     val listOfGames: List<Jogo> = jogoDao.getList()
     println(listOfGames)
